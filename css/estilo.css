@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF2E7;
+    margin-left: 30px;
+    font-family: "Sarala";
+}
+
+/* Formatação main */
+
+main #secao1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+main #secao1-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main #secao1 h1{
+    font-family: "Righteous";
+    font-size: 64px;
+    color:#FFF2E7;
+    line-height: 79.47px;
+    
+}
+
+main #secao1 h2{
+    font-family: Sarala;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    color:#FFF2E7;
+}
+
+main #secao1 button{
+    background-color: #FFF2E7;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Sarala;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+main #secao1 img{
+    height: 430px;
+}
+
+/* Formatação seção 2 */
+
+main #secao2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    color: #FFF2E7;
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+
+main #secao2 h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: "Righteous";
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+main #secao2 p{
+    font-family: "Righteous";
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+/* Formatação footer */
+
+footer{
+    
+    border-top: 0.4px solid #FFF2E7;
+}
+
+footer img{
+    display: flex;
+    margin: 0 auto;
+    padding: 45px;
+}
